@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number - Challenge Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Guess the Number - Challenge Mode</h1>
+        <p id="instruction">Select a level to begin:</p>
+        <input type="number" id="guessInput" placeholder="Enter your guess" style="display: none;" min="1" max="200">
+        <button class="buttoncheck" id="checkButton" style="display: none;">Check</button>
+        <p id="result"></p>
+        <button id="restartButton" style="display: none;" class="buttonrestart ">Restart</button>
+        <div id="select">
+            <button class="level-btn" id="easy-btn"></i> Easy (1-50)</button>
+            <button class="level-btn" id="medium-btn">Medium (1-100)</button>
+            <button class="level-btn" id="hard-btn">Hard (1-200)</button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
